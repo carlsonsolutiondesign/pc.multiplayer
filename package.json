@@ -1,30 +1,45 @@
 {
-  "name": "playcanvas-multiplayer-pack",
-  "version": "0.0.1",
-  "description": "PlayCanvas multiplayer example game",
-  "main": "app.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/coderextreme/pc.multiplayer.git"
-  },
-  "dependencies": {
-    "express": "~4.9.0",
-    "socket.io": "1.2.1"
-  },
-  "devDependencies": {
-    "chai": "*",
-    "grunt": "~0.4.5",
-    "grunt-contrib-concat": "^0.5.0",
-    "grunt-contrib-jshint": "~0.10.0",
-    "grunt-contrib-nodeunit": "~0.4.1",
-    "grunt-contrib-uglify": "~0.5.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-simple-mocha": "*",
-    "gulp": "^3.8.10",
-    "gulp-jshint": "^1.9.0",
-    "gulp-mocha": "^2.0.0",
-    "gulp-util": "^3.0.1",
-    "mocha": "*",
-    "socket.io-client": "1.2.1"
-  }
+	"name": "monastery-dwelling",
+	"version": "0.0.2",
+	"description": "Game of chase and ring the bell",
+	"main": "app.js",
+	"engines": {
+		"npm": "6.14.5",
+		"node": "14.5.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/coderextreme/pc.multiplayer.git"
+	},
+	"dependencies": {
+		"express": "*",
+		"node-rest-client-patched": "^3.1.1",
+		"socket.io": "*",
+		"extend": "*",
+		"mime": "^2.4.0",
+		"debug": "^4.1.1",
+		"qs": "^6.7.0"
+	},
+	"devDependencies": {
+		"chai": "*",
+		"grunt": "^1.0.4",
+		"grunt-contrib-concat": "*",
+		"grunt-contrib-jshint": "*",
+		"grunt-contrib-nodeunit": "*",
+		"grunt-contrib-uglify": "*",
+		"grunt-contrib-watch": "*",
+		"grunt-simple-mocha": "*",
+		"gulp": "*",
+		"gulp-jshint": "*",
+		"gulp-mocha": "*",
+		"hoek": "*",
+		"js-yaml": "^3.13.1",
+		"jshint": "*",
+		"mocha": "^6.1.4",
+		"socket.io-client": "*",
+		"diff": ">=3.5.0"
+	},
+	"scripts": {
+		"start": "node app.js"
+	}
 }
